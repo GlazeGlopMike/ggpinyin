@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "GGPinyin",
+  "version": "1.0",
+  "description": "Romanize Chinese characters using pinyin.",
+  "short_name": "GG拼音",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["content.js"]
+  }],
+  "host_permissions": ["<all_urls>"],
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting"
+  ],
+  "web_accessible_resources": [{
+    "resources": ["pinyin.txt","jyutping.txt"],
+    "matches": ["*://*/*"],
+    "extension_ids": []
+  }],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}

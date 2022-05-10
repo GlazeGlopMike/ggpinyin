@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "GGPinyin",
   "version": "1.0",
-  "description": "Romanize Chinese characters using pinyin.",
+  "description": "Romanize Chinese characters with Pinyin and Jyutping.",
   "short_name": "GG拼音",
   "background": {
     "service_worker": "background.js"

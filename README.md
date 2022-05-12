@@ -4,6 +4,7 @@
 - [Setup](#setup)
 - [Usage](#usage)
 - [How It Works](#how-it-works)
+- [Known Issues](#known-issues)
 - [Proposed Features](#proposed-features)
 - [License and Copyright](#license-and-copyright)
 
@@ -60,4 +61,4 @@ Do also note that some Chinese characters are used in Cantonese but not in Manda
 ## License and Copyright
 This software is available under the MIT License. See `LICENSE` for more details.
 
-The Pinyin dictionary `pinyin.txt` is derived from the [CC-CEDICT project](https://www.mdbg.net/chinese/dictionary?page=cc-cedict) copyright © 2022 MDBG, with some elements © 1997-1998 Paul Andrew Denisowski. The Jyutping dictionary `jyutping.txt` is derived from CC-Canto and the Cantonese readings for CC-CEDICT [(found here)](https://cantonese.org/download.html) copyright © 2015-2016 Pleco Software, where the latter source is built upon the same CC-CEDICT project attributed to above. The contents of the Pinyin and Jyutping dictionaries with this extension are available under under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode).
+The Pinyin dictionary `pinyin.txt` is derived from the [CC-CEDICT project](https://www.mdbg.net/chinese/dictionary?page=cc-cedict) copyright © 2022 MDBG, with some elements © 1997-1998 Paul Andrew Denisowski. The Jyutping dictionary `jyutping.txt` is derived from CC-Canto and the Cantonese readings for CC-CEDICT [(found here)](https://cantonese.org/download.html) copyright © 2015-2016 Pleco Software, where the latter source is built upon the same CC-CEDICT project attributed to above. The contents of the Pinyin and Jyutping dictionaries provided with this extension are available under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode).

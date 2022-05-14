@@ -39,6 +39,9 @@ function romanize(selection, dict) {
       ++len;
     }
     
+    if (dict[query]) {
+      prev = query;
+    }
     let temp = dict[prev];
     
     if (temp) {

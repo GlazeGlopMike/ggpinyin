@@ -47,8 +47,7 @@ Do also note that some Chinese characters are used in Cantonese but not in Manda
 
 ## Known Issues
 - Incorrect pronunciations for many characters with multiple pronunciations (likely romanization procedure issue)
-- Some characters not resolving correctly despite available dictionary data
-- U with umlaut (ü) not appearing in output (pre-processing issue)
+- Some characters not resolving despite available dictionary data (particularly Cantonese characters)
 
 ## Proposed Features
 - Custom output pane
@@ -56,6 +55,7 @@ Do also note that some Chinese characters are used in Cantonese but not in Manda
 - Optical character recognition
 - Punctuation resolution
 - Settings menu
+- User romanization handling and incorporation
 
 
 ## License and Copyright
